@@ -1,0 +1,30 @@
+{
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "engines": {
+    "node": ">=22.14.0",
+    "npm": ">=9.6.7"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Adolfo Ruiz Rodríguez <karlosarr@protonmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlosarr/whatsapp-web.git"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.0.0"
+  }
+}
